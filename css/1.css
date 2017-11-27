@@ -1,4 +1,7 @@
 @CSS para pantalla donde amplio minimo:720px.
   
 body,html{
-  
+  background-image: url("img/fondoLunarLander.jpg");
+  background-attachement: fixed;
+}
+
