@@ -30,13 +30,31 @@ body{
 .menu{
   right:0;
   top:0;
-  background-image: url("../img/planetBclosed.png");
-  background-size: 140%;
-  background-position-x: -440px;
-  background-repeat: no-repeat;
   position:fixed;
-  font-size: 150%;  
-  
+}
+
+.menu img{
+  position:fixed;
+  right:0;
+  top:10%;
+  height:30%;
+  min-height: 160px;
   
 }
+
+.menu1 ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.menu1{
+  font-size: 1.5vw;
+  text-align: center;
+  position: relative;
+  top: 100%;
+  left: -30%;
+}
+
+
 }
