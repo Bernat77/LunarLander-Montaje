@@ -1,7 +1,31 @@
-@CSS para pantalla donde amplio minimo:720px.
-  
 body,html{
-  background-image: url("img/fondoLunarLander.jpg");
-  background-attachement: fixed;
+  height:100%;
+  padding:0px;
+  margin: 0px;
 }
 
+body{
+  background-image: url("../img/fondoLunarLander.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.nave{
+  height:100%;
+  
+}
+
+.luna{
+  position:fixed;
+	bottom: 0;
+	width:100%;
+  height:20%
+  
+}
+.luna img{
+  
+  
+  
+}
