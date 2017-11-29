@@ -18,43 +18,78 @@ body{
   padding-left: 43.44%;
   height:30%;
   top:0;
+  z-index:-1
 }
 
 .luna img{
 	position:fixed;
 	bottom: -2%;
-	height:20%;
+	height:25%;
   width: 100%;
+  z-index:-2;
 }
 
 .menu{
-  right:0;
-  top:0;
-  position:fixed;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 300px;
+  height: 300px;
+  padding-top: 75px;
+  box-sizing: border-box;
+  border: 5px solid #004400;
+  font-size: 32px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+  background-image: url("../img/planetaBv.png");
+  background-size: cover;
+}
+
+.fondo-menu {
+  position: fixed;
+  right: 20px;
+  top: 25px;
+  width: 700px;
+  height: 280px;
+  background-color: darkgreen;
+  border-radius: 150px;
+  border: 5px solid #004400;
 }
 
 .menu img{
-  position:fixed;
+  position:relative;
   right:0;
-  top:10%;
-  height:30%;
-  min-height: 160px;
-  
+  top:0%;
+  height:60%;
+  min-height: 460px;
 }
 
-.menu1 ul{
+.menu ul{
+   position: fixed;
    list-style-type: none;
-   margin: 0;
-   padding: 0;
+   margin: 0 14px;
+   padding: 0 35px;
+   text-shadow: 2px 2px 2px darkgreen;
+   z-index: 1;
 }
 
-.menu1{
-  font-size: 1.5vw;
-  text-align: center;
-  position: relative;
-  top: 100%;
-  left: -30%;
+.menu li:hover{
+    border: 2px solid white;
+    border-radius: 10px;
 }
+
+.menu li{
+  border:2px solid transparent;
+  cursor:pointer;
+}
+
+.menu a{
+   color:white;
+   text-decoration:none;
+}
+
+
 
 
 }
