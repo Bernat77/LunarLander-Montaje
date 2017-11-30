@@ -29,7 +29,29 @@ body{
 }
 
 .menu{
-  display: none;
+  position: fixed;
+  top:30%;
+  left:10%;
+  font-size: 30px;
+  background-color: red;
+  border: 4px solid darkred;
+}
+
+.menu li{
+  text-align: center;
+  background-color: darkred;
+  margin:15px;
+  padding: 10px;
+}
+.menu ul{
+  list-style-type: none;
+  padding: 2px;
+  margin:5px;
+}
+
+.menu a{
+  text-decoration: none;
+  color:white;
 }
 
 .nave{
@@ -38,16 +60,26 @@ body{
 }
 
 .nave img{
-  display: block;
-  padding: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -moz-transform: translate(-30%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -220%);
+  position: fixed;
+  top: 0;
+  left: 31%;
+  height: 150px;
+  z-index:-1
+}
+
+.luna{
+  position: fixed;
+  bottom: -2%;
+  height:20%;
+  max-height: 400px;
+  min-height: 100px;
+}
+
+.luna img{
+  position: ;
+  width: 100%;
+  height: 100%;
+}
   height: 150px;
   z-index:-1
 }
