@@ -1,1 +1,53 @@
-a
+body,html{
+  height:100%;
+  padding:0px;
+  margin: 0px;
+}
+
+body{
+  background-image: url("../img/fondoLunarLander.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.button{
+  position: fixed;
+  right:5%;
+  top: 15px;
+}
+
+.bmenu img{
+  height: 50px;
+  border: 4px solid darkorchid;
+  border-radius: 100%;
+}
+.bplay,.brest{
+  display: none;
+}
+
+.menu{
+  display: none;
+}
+
+.nave{
+  display: block;
+  position: relative;
+}
+
+.nave img{
+  display: block;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-30%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -220%);
+  height: 150px;
+  z-index:-1
+}
