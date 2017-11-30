@@ -1,8 +1,8 @@
-### Documentación
+# Documentación
 
 ## Modificaciones
 
-#**Versión PC**
+## **Versión PC**
 
 **Apartado funcional**
 En el apartado funcional, la versión de PC ha quedado intacta y se ha sido fiel al diseño original.
@@ -14,7 +14,7 @@ Los cambios con respecto al apartado visual del diseño original son los siguien
 * Se ha eliminado el concepto de imagenes de los dos planetas verdes y se ha usado div con background color para cubrir la necesidad del fondo del menú desplegable.
 * El mismo caso para el planeta rojo al desplegarse, se ha desechado la imagen y se usa divs de color redondeados para sustituir las partes del planeta
 
-#**Version Móvil**
+## **Version Móvil**
 
 **Apartado funcional**
 En el apartado funcional de la versión móvil se han eliminado los botones play y repetir por necesidad, cuenta solo con el de menú
