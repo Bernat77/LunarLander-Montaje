@@ -32,7 +32,7 @@ body{
 .menu{
   position: fixed;
   right: 20px;
-  top: 20px;
+  top: 125px;
   width: 300px;
   height: 300px;
   padding-top: 75px;
@@ -41,7 +41,7 @@ body{
   font-size: 32px;
   text-align: center;
   border-radius: 50%;
-  z-index: 2;
+  z-index: 3;
   background-image: url("../img/planetaBv.png");
   background-size: cover;
 }
@@ -49,21 +49,21 @@ body{
 .fondo-menu {
   position: fixed;
   right: 20px;
-  top: 25px;
-  width: 700px;
-  height: 280px;
+  top: 125px;
+  width: 290px;
+  height: 290px;
   background-color: darkgreen;
   border-radius: 150px;
   border: 5px solid #004400;
+  transition: all 0.2s;
+  z-index: 2;
 }
 
-.menu img{
-  position:relative;
-  right:0;
-  top:0%;
-  height:60%;
-  min-height: 460px;
+ .fondo-menu, #Ins:active + fondo-menu, #Dif:active + .fondo-menu{
+  width: 900px;
+  transition:all 0.2s;
 }
+
 
 .menu ul{
    position: fixed;
@@ -90,6 +90,137 @@ body{
 }
 
 
-
-
+.button{
+  position: fixed;
+  right:70px;
+  top: 15px;
 }
+.bplay,.brest{
+  display: inline-block;
+  padding: 10px;
+}
+
+.bplay img,.brest img{
+  height: 80px;
+  border: 4px solid darkorchid;
+  border-radius: 100%;
+}
+.bmenu{
+  display: none;
+}
+
+.ind{
+  position: fixed;
+  height:300px;
+  width:300px;
+  top:40px;
+  left:40px;
+  border: 5px solid darkred;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-image: url("../img/planetaAv.png");
+  background-size: cover;
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 2px 2px 2px darkred;
+  z-index: 1;
+  background-image:none;
+  border: 5px solid transparent;
+}
+
+.fondo-ind{
+  position: fixed;
+  top:40px;
+  left:40px;
+}
+.fondo-ind-bot{
+  position:absolute;
+  height:150px;
+  width:300px;
+  top:420px;
+  box-sizing: border-box;
+  background-color: red;
+  border:5px solid darkred;
+  border-bottom-right-radius:150px;
+  border-bottom-left-radius: 150px;
+  z-index:1;
+}
+
+.fondo-ind-bot-fil{
+  position: absolute;
+  bottom:0;
+  height:100%;
+  width:100%;
+  left:0%;
+  background-color: yellow;
+  border-bottom-right-radius:150px;
+  border-bottom-left-radius: 150px;
+  z-index:-1;
+}
+
+.fondo-ind-mid{
+  position: absolute;
+  background-color: darkred;
+  top:150px;
+  height:300px;
+  width: 280px;
+  left: 10px;
+  z-index: -2;
+}
+
+.fondo-ind-top{
+  position:absolute;
+  height:150px;
+  width:300px;
+  box-sizing: border-box;
+  background-color: red;
+  border:5px solid darkred;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+
+.fondo-ind-top-bar{
+  position: absolute;
+  background-color: white;
+  height:5px;
+  width:80%;
+  top:40%;
+  left: 10%;
+  border: 1px solid white;
+  border-radius: 150px;
+  
+}
+
+#vel{
+  position: absolute;
+  left: 35%;
+  top:200px;
+   text-shadow: 2px 2px 4px red;
+  
+}
+
+
+#fuel{
+  position: absolute;
+  left: 37%;
+  top:336px;
+   text-shadow: 2px 2px 4px red;
+  
+}
+
+#alt{
+  position: absolute;
+  left: 32%;
+  top:40%;
+   text-shadow: 2px 2px 4px red;
+}
+
+#vnum{
+  font-size: 48px;
+ position: absolute;
+ left: 27%;
+ top:230px;
+ text-shadow: 2px 2px 4px yellow;
+}
+
+
