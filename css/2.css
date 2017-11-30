@@ -29,9 +29,11 @@ body{
 }
 
 .menu{
+  display: none;
+  z-index: 1;
   position: fixed;
   top:30%;
-  left:10%;
+  left:18%;
   font-size: 30px;
   background-color: red;
   border: 4px solid darkred;
@@ -80,6 +82,33 @@ body{
   width: 100%;
   height: 100%;
 }
-  height: 150px;
-  z-index:-1
+
+.ind{
+  position: fixed;
+  color: yellow;
+  font-size: 23px;  
+  z-index: 1;
 }
+
+#alt{
+  position:absolute;
+  left:10%;
+}
+
+.fondo-ind-top{
+  position:fixed;
+  height:100px;
+  width:50px;
+  background-color: red;
+  top:13%;
+  left:5%;  
+}
+
+.fondo-ind-top-bar{
+  position:absolute;
+  width:50px;
+  height: 10px;
+  background-color: wheat;
+  top: 20%;
+}
+
