@@ -1,6 +1,6 @@
 # Documentación
 
-## Modificaciones
+## Explicación y modificaciones
 
 ## **Versión PC**
 
@@ -17,7 +17,7 @@ Los cambios con respecto al apartado visual del diseño original son los siguien
 ## **Version Móvil**
 
 **Apartado funcional**
-En el apartado funcional de la versión móvil se han eliminado los botones play y repetir por necesidad, cuenta solo con el de menú
+En el apartado funcional de la versión móvil se han eliminado los botones play y restart por necesidad, cuenta solo con el de menú
 que realizara la función de pausa e incorporará la opción de reiniciar en el menú desplegable.
 * Al igual que su versión de PC, el botón **ABOUT** es funcional y redirige a la página about.html
 
